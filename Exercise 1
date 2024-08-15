@@ -23,7 +23,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/Justin-Bjorn-Sanchez/OOP2-CPE009B-CPE21S1/blob/main/Lesson%20OOP2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/Justin-Bjorn-Sanchez/OOP2-CPE009B-CPE21S1/blob/main/Exercise%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -830,7 +830,7 @@
         },
         "outputId": "cb7f864c-6183-4ee2-e665-8cc667c02fdd"
       },
-      "execution_count": 61,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -856,7 +856,7 @@
         },
         "outputId": "eafa754d-284e-4573-c492-b2228777ac25"
       },
-      "execution_count": 62,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -903,7 +903,7 @@
         "id": "wVmwlX0YajLN",
         "outputId": "9bfb5c19-383f-487f-9475-abeccf2180fb"
       },
-      "execution_count": 79,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -926,7 +926,7 @@
         "id": "RJY5b0irauYi",
         "outputId": "119732bc-9c62-4792-a034-e33bfd654d26"
       },
-      "execution_count": 80,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -949,7 +949,7 @@
         "id": "u570HMAoaydp",
         "outputId": "64f47b09-0322-43c1-8e35-42527dad8b00"
       },
-      "execution_count": 81,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -972,7 +972,7 @@
         "id": "gpyqjM19a1Xs",
         "outputId": "d6b2e0bf-4e92-4ab3-8e79-9fab12b2d792"
       },
-      "execution_count": 82,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -995,7 +995,7 @@
         "id": "wku0KCANa4LF",
         "outputId": "96d56768-09a5-46d5-948a-13775efc0716"
       },
-      "execution_count": 83,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1018,7 +1018,7 @@
         "id": "jdkT2y7ia7kt",
         "outputId": "551516fc-cd49-4ea8-a7af-00b74f269a39"
       },
-      "execution_count": 84,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1062,7 +1062,7 @@
       "metadata": {
         "id": "1BmfRznKbeX9"
       },
-      "execution_count": 89,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1077,7 +1077,7 @@
         "id": "uLXq5an3bnOb",
         "outputId": "6bc3c89e-7cd7-42f4-e7dc-1c69d9166892"
       },
-      "execution_count": 90,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1119,7 +1119,7 @@
         "id": "lZlLrsxWcFWn",
         "outputId": "9f0c011d-880d-44de-ddd8-514989146a7d"
       },
-      "execution_count": 92,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1143,7 +1143,7 @@
         "id": "qQKWDHYycO70",
         "outputId": "6e9e8d1d-eff3-4c0f-965e-14e8dd966803"
       },
-      "execution_count": 94,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1176,7 +1176,7 @@
         "id": "jwuHTFgfdHnu",
         "outputId": "ace8870d-f34d-4d49-c18d-e387f572e9b6"
       },
-      "execution_count": 96,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1199,7 +1199,7 @@
         "id": "Yvx1cY2jdQkU",
         "outputId": "81233104-34af-4138-d016-d7ef5dee9abb"
       },
-      "execution_count": 97,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1222,7 +1222,7 @@
         "id": "iaoCtGBEdTlo",
         "outputId": "fb20caaf-0f8e-4978-ee70-b3c40753f57d"
       },
-      "execution_count": 99,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1245,7 +1245,7 @@
         "id": "2hIvGFvfdaD9",
         "outputId": "2b26e607-efd7-4b87-9999-422cef0b9d9f"
       },
-      "execution_count": 100,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1268,7 +1268,7 @@
         "id": "7s3KLeOodfFs",
         "outputId": "88609d7c-cca9-4c1d-f7f2-818ad81019da"
       },
-      "execution_count": 101,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1291,7 +1291,7 @@
         "id": "ufW02iS-dmEk",
         "outputId": "3ba53e1c-2569-4dc3-f88d-6bd5140c09ce"
       },
-      "execution_count": 102,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
