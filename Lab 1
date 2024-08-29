@@ -1,0 +1,102 @@
+Code for lab 1
+
+Main
+
+import Accounts
+import ATM
+
+Account1 = Accounts.Accounts(account_number=123456,
+                             account_firstname =  "Joros",
+                             account_lastname = "Jimenez",
+                             current_balance = 42069,
+                             address = "420 South Drive",
+                             email = "Joros.Jimenez@gmail.com")
+
+print("Account1")
+
+
+Account1.Account_check()
+
+
+user1_serialnumber = 12345
+ATM1 = ATM.ATM(user1_serialnumber,500,"deposit")
+ATM1.deposit(Account1)
+ATM1.check_currentbalance(Account1)
+ATM1.check_serialnumber()
+ATM1.view_transactionsummary()
+
+print('\n')
+print("Account2")
+
+Account2 = Accounts.Accounts(account_number=321349,
+                             account_firstname = "Kata",
+                             account_lastname = "Rina",
+                             current_balance = 69420,
+                             address = "69 North Drive",
+                             email = "Kata.Rina@yahoo.com")
+
+Account2.Account_check()
+
+user2_serialnumber = 67891
+ATM2 = ATM.ATM(user2_serialnumber,300,"deposit")
+ATM2.deposit(Account2)
+ATM2.check_currentbalance(Account2)
+ATM2.check_serialnumber()
+ATM2.view_transactionsummary()
+
+
+
+
+ATM
+
+class ATM ():
+    serial_number = 0
+    def __init__(self,serial_number,amount,history):
+        self.serial_number = serial_number
+        self.amount = amount
+        self.history = history
+    def deposit(self,account):
+        account.current_balance = account.current_balance + self.amount
+
+    def widthdraw(self,account):
+        account.current_balance = account.current_balance - self.amount
+
+    def  check_currentbalance(self,account):
+            print(f'Account balance after transaction: {account.current_balance}')
+
+    def check_serialnumber(self):
+        print(f'serial number: {self.serial_number}')
+
+    def view_transactionsummary(self):
+        print(f'transaction history: {self.history}')
+
+
+
+
+
+Accounts
+class Accounts():
+
+    def __init__(self,account_number,account_firstname,account_lastname,current_balance,address,email):
+
+        self.account_number = account_number
+        self.account_firstname = account_firstname
+        self.account_lastname = account_lastname
+        self.current_balance = current_balance
+        self.address = address
+        self.email = email
+
+
+    def update_address(self, new_address):
+        Accounts.address = new_address
+
+    def update_email (self, new_email):
+        Accounts.email = new_email
+
+
+    def Account_check(self):
+        print(f'account number: {self.account_number}')
+        print(f'name: {self.account_firstname} {self.account_lastname}')
+        print(f'acoount balance: {self.current_balance}')
+        print(f'address: {self.address}')
+        print(f'email: {self.email}')
